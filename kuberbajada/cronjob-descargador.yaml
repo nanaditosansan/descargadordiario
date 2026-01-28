@@ -4,6 +4,7 @@ metadata:
   name: descargador-diario
 spec:
   schedule: "15 15 * * *"  # 3:00 AM todos los días
+  startingDeadlineSeconds: 60
   concurrencyPolicy: Forbid # Evita que se corra uno nuevo si el anterior no ha terminado
   jobTemplate:
     spec:
