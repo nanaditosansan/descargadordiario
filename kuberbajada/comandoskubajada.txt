@@ -61,3 +61,4 @@ Sun Jan 11 18:39:46 UTC 2026
 
 ---
 kubectl delete cronjob descargador-diario
+kubectl apply -f cronjob-descargador.yaml
