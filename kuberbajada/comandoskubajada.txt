@@ -70,3 +70,11 @@ git push -u origin arreglacronjob
 
 kubectl apply -f cronjob-descargador.yaml
 
+kubectl apply -f cronjob-descargador.yaml
+
+---
+
+kubectl delete cronjob descargador-diario
+
+git commit -m "cambiar carpeta de zips a carpeta manejada por dvc"
+

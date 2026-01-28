@@ -24,7 +24,7 @@ spec:
             - name: SUFIJO
               value: "_BMU_EstadosFinancierosDesagregados.zip"
             - name: RUTA
-              value: "desagregados8"
+              value: "dvcdatasets/desagregados7"
             volumeMounts:
             - name: espacio-trabajo
               mountPath: /data
