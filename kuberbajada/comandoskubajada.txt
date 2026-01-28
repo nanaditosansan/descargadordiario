@@ -61,4 +61,12 @@ Sun Jan 11 18:39:46 UTC 2026
 
 ---
 kubectl delete cronjob descargador-diario
+
+git checkout -b arreglacronjob
+
+git commit -m "arrgelo de cronjob para que no corra al reiniciar el server"
+
+git push -u origin arreglacronjob
+
 kubectl apply -f cronjob-descargador.yaml
+
